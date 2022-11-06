@@ -9,6 +9,7 @@
 int get_error(data_shell *datash, int eval)
 {
 	char *error;
+
 	switch (eval)
 	{
 		case -1:
